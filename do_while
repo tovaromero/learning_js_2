@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo do while</title>
+  <script>
+    function contarDoWhile() {
+      let j = 1;
+      let mensaje = "";
+      do {
+        mensaje += "Número: " + j + "\n";
+        j++;
+      } while (j <= 5);
+      alert(mensaje);
+    }
+  </script>
+</head>
+<body>
+  <h1>Ejemplo de do while</h1>
+  <button onclick="contarDoWhile()">Contar con do while</button>
+</body>
+</html>
+
